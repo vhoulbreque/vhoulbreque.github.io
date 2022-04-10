@@ -1,0 +1,25 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-title {
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+  font-weight: 500;
+  font-size: 18px;
+  min-width: 150px;
+
+  display: inline-block;
+  text-align: center;
+
+  color: $site-title-color !important;
+}
+
+.feed-subscribe>a:visited {
+  color: $site-title-color !important;
+}
+
+.feed-subscribe>a {
+  color: $site-title-color !important;
+}
