@@ -23,6 +23,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  trailingSlash: false,
+
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -42,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vinzeebreak/vincent.houlbreque.com/edit/main/blog',
+            'https://github.com/vinzeebreak/vincent.houlbreque.com/edit/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
