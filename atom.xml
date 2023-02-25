@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://houlbreque.com/</id>
+    <title>Vincent Houlbrèque Blog</title>
+    <updated>2023-02-25T21:31:02.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://houlbreque.com/"/>
+    <subtitle>Vincent Houlbrèque Blog</subtitle>
+    <icon>http://houlbreque.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Some tuto]]></title>
+        <id>http://houlbreque.com/some-tuto</id>
+        <link href="http://houlbreque.com/some-tuto"/>
+        <updated>2023-02-25T21:31:02.000Z</updated>
+        <author>
+            <name>Vincent Houlbrèque</name>
+            <uri>https://vincent.houlbreque.com/about</uri>
+        </author>
+    </entry>
+</feed>
