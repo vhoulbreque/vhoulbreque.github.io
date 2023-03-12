@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'vinzeebreak', // Usually your GitHub org/user name.
-  projectName: 'vincent.houlbreque.com', // Usually your repo name.
+  projectName: 'vinzeebreak.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vinzeebreak/vincent.houlbreque.com/edit/master/blog',
+            'https://github.com/vinzeebreak/vinzeebreak.github.io/edit/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
