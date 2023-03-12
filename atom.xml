@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://houlbreque.com/</id>
     <title>Vincent Houlbrèque Blog</title>
-    <updated>2023-03-12T18:59:57.000Z</updated>
+    <updated>2023-03-12T19:38:16.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://houlbreque.com/"/>
     <subtitle>Vincent Houlbrèque Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Some tuto]]></title>
         <id>http://houlbreque.com/some-tuto</id>
         <link href="http://houlbreque.com/some-tuto"/>
-        <updated>2023-03-12T18:59:57.000Z</updated>
+        <updated>2023-03-12T19:38:16.000Z</updated>
         <author>
             <name>Vincent Houlbrèque</name>
             <uri>https://vinzeebreak.github.io/about</uri>
