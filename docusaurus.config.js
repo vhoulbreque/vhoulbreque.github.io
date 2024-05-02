@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vinzeebreak', // Usually your GitHub org/user name.
-  projectName: 'vinzeebreak.github.io', // Usually your repo name.
+  organizationName: 'vhoulbreque', // Usually your GitHub org/user name.
+  projectName: 'vhoulbreque.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vinzeebreak/vinzeebreak.github.io/edit/master/',
+            'https://github.com/vhoulbreque/vhoulbreque.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -112,8 +113,8 @@ const config = {
       //   copyright: `Copyright © ${new Date().getFullYear()} Vincent Houlbrèque Built with Docusaurus.`,
       // },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
     }),
 };
